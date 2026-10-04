@@ -16,3 +16,11 @@ for number in range(5):
 
     auther-irfan
     
+The Gold Miner
+
+ mine = ['rock', 'gold', 'dirt', 'gold', 'gold', 'rock', 'dirt']
+gold_count = 0
+for item in mine:
+    if item == "gold":
+        gold_count += 1  # Shorthand for: gold_count = gold_count + 1
+print(f"You found {gold_count} pieces of gold!")
